@@ -3,6 +3,7 @@
 <?import javafx.scene.control.Menu?>
 <?import javafx.scene.control.MenuBar?>
 <?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.control.SeparatorMenuItem?>
 <?import javafx.scene.layout.Pane?>
 <?import javafx.scene.layout.VBox?>
 
@@ -14,6 +15,9 @@
             <items>
               <MenuItem mnemonicParsing="false" onAction="#showAddContact" text="Add Contact" />
                   <MenuItem mnemonicParsing="false" onAction="#showListContact" text="List Contact" />
+                  <SeparatorMenuItem mnemonicParsing="false" />
+                  <MenuItem mnemonicParsing="false" onAction="#importContacts" text="Import Contact" />
+                  <MenuItem mnemonicParsing="false" onAction="#exportContacts" text="Export Contact" />
             </items>
           </Menu>
         </menus>

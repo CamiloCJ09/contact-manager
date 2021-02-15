@@ -55,7 +55,8 @@ public class ContactManagerGUI {
 			nameTextField.setText("");
 			emailTextField.setText("");
     	} catch (Exception ex){
-
+			nameTextField.setText("");
+			emailTextField.setText("");
 		}
 
 
@@ -91,4 +92,13 @@ public class ContactManagerGUI {
 		 mainPanel.getChildren().setAll(contactListPane);
 		 initializeTableView();
 	 }
+	@FXML
+	public void exportContacts(ActionEvent event) {
+
+	}
+
+	@FXML
+	public void importContacts(ActionEvent event) {
+
+	}
 }
